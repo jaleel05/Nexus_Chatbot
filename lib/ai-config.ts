@@ -18,7 +18,7 @@ Formatting & Style Guidelines:
  * OpenRouter format: 'anthropic/claude-3.5-sonnet', 'openai/gpt-4o-mini', 'google/gemini-2.5-flash', etc.
  * Fallback Gemini model: 'gemini-2.5-flash' or 'gemini-2.0-flash'.
  */
-export const MODEL_ID = 'google/gemini-2.5-flash';
+export const MODEL_ID = "google/gemini-2.0-flash-exp:free";
 
 export const MODEL_CONFIG = {
   temperature: 0.7,
