@@ -1,7 +1,7 @@
 import { streamText, convertToModelMessages } from 'ai';
 import { createOpenRouter } from '@openrouter/ai-sdk-provider';
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
-import { SYSTEM_PROMPT, MODEL_ID, MODEL_CONFIG } from '@/lib/ai-config';
+import { SYSTEM_PROMPT, MODEL_ID, MODEL_CONFIG } from "../../../lib/ai-config";
 
 export async function POST(req: Request) {
   try {
