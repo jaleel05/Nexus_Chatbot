@@ -1,0 +1,20 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/516b11dc-b806-4379-acbd-1abb3012f226
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `OPENROUTER_API_KEY` in `.env` to your OpenRouter API key
+3. Run the app:
+   `npm run dev`

@@ -1,0 +1,6 @@
+{
+  "name": "Streaming AI Chatbot",
+  "description": "Production-quality streaming AI chatbot featuring 3D avatar animation, smart auto-scroll pinning, stop-and-resend controls, and stream-safe markdown rendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
